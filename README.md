@@ -1,2 +1,6 @@
 # PythonBasics
-Python Basics
+Topics
+
+- Variables
+- String Manipulations
+- Math Functions
