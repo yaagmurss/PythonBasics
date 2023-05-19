@@ -1,6 +1,6 @@
 #VARIABLES#
 
-#String
+#String#
 name="Yagmur"
 surName="Solmaz"
 fullName=name+" "+surName
