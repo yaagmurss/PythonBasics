@@ -10,3 +10,4 @@ Topics
 - Tuples and Sets
 - Dictionary
 - Indexing
+- Functions
