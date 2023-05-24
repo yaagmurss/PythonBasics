@@ -1,3 +1,16 @@
-#https://www.youtube.com/watch?v=XKHEtdqhLK8&list=RDCMUC4SVo0Ue36XCfOyb5Lh1viQ&start_radio=1
+try:
+    numerator = int(input("Enter a number to divide"))
+    denominator = int(input("Enter a number to divide by"))
+    result = numerator/denominator
+    print(result)
 
-#02:37:17
+except ZeroDivisionError as e:
+    print(e)
+    print("You can not divide by zero")
+except ValueError as e:
+    print(e)
+    print("Enter only number")
+except Exception as e:
+    print(e)
+    print("something went wrong")
+
