@@ -1,5 +1,4 @@
 #List
-#Used to store multiple items in a single variable
 
 food =["pizza", "hambuger", "hotdogs", "beans","spagetti","pudding"]
 

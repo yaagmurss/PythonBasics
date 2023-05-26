@@ -1,5 +1,4 @@
 ############# While Loop ##################
-#A statement that will execute it is block of code in a unlimited amount of time
 
 name=""
 while len(name)==0:
@@ -8,7 +7,6 @@ print("Hello " + name)
 
 
 ############# For Loop#############
-#A statement that will execute it is block of code in a limited amount of time
 
 for i in range(10):
     print(i)
@@ -23,7 +21,6 @@ for i in range(500, 100, -20):
     print(i)
 
 ############## Nested loops #############
-#The inner loop will finish all of it is iterations before finishing one iteration of the outer loop.
 
 rows = int(input("How many rows? "))
 columns = int(input("How many columns? "))
@@ -34,10 +31,9 @@ for i in range(rows):
         print(symbol, end="")
     print()
 
-# Loop Control Statements = change a loops execution from it is normal sequence
 
-# break = used to terminate the loop entirely
-# continue = skips to the next iteration of the loop
+# break = use "break" in order to exit from loop
+# continue = use "continue" in order to skip iteration
 # pass = does nothing act as a placeholder
 
 ############## Break #############

@@ -1,5 +1,5 @@
-#Dictionary = A changeable, unordered collection of unique key value pairs
-#               Fast because they use hashing, allow us to access a value quickly
+############## Dictionary ##############
+# changeable, unordered
 
 capitals = {"USA":"Washington DC",
             "India":"Yeni Delhi",

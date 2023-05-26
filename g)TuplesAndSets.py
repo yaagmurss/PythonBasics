@@ -1,16 +1,17 @@
-#Tuple = collection which is unordered and unchangeable
-#                       used to group together related data
+############ TUPLE ############
+#unordered and unchangeable
 
-student = ("Bro", 21, "male")
+student = ("yagmur", 21, "female")
 
-print(student.count("Bro"))
-print(student.index("male"))
+print(student.count("yagmur"))
+print(student.index("female"))
 
 for i in student:
     print(i, end="-")
 
 
-#Set = collection which is unordered, unindexed, no dublicate values
+############# Set ###########
+# unordered, unindexed, no duplicate values
 
 utensils = {"fork", "spoon", "knife"}
 dishes = {"bowl", "plate", "cup", "knife"}

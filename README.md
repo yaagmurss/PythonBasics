@@ -11,3 +11,5 @@ Topics
 - Dictionary
 - Indexing
 - Functions
+- Exception Handling
+- Files

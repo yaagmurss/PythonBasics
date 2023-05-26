@@ -1,6 +1,4 @@
-#Index operator [] = gives access to a sequence's element (str,list,tuples)
-
-name = "Bro Code!"
+name = "Hello World!"
 
 if(name[0].islower()):
     name = name.capitalize()
