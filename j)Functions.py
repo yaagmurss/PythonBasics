@@ -1,4 +1,4 @@
-# Function
+############## Function #############
 # A block of code which is executed only when it is called
 
 def hello(firstName, lastName, age):
@@ -18,7 +18,7 @@ def multiple(number1, number2):
 print(multiple(5,6))
 
 
-# Keyword Arguments
+############## Keyword Arguments #############
 # Arguments preceded by an identifier when we pass them to a function
 # The order of arguments does not matter
 
@@ -28,14 +28,14 @@ def heloo(firstName, middleName, lastName):
 heloo(lastName="Solmaz", middleName="No middle name", firstName="Yagmur")
 
 
-#Scope
+############## Scope #############
 #The reqion that a variable is recognized
 #A variable is only avaible from inside the region it is created
 #A global and locally scoped versions of a variable can be created
 #First local then enclosing then Global then Built in functions avaible
 
 
-# *args
+############## *args #############
 # Parameter that will pack al arguments into a tuple
 # Useful so that a function accept varying amount of arguments
 
@@ -57,7 +57,7 @@ def addStuff(*stuff):
 print(addStuff(1,2,3,4,5,6))
 
 
-# **kwargs
+############## **kwargs #############
 # Parameter that will pack all arguments into a dictionary
 # Useful so that a function can accept a varying amount of keyword arguments
 
