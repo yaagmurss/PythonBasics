@@ -1,6 +1,6 @@
 # Notes
 
-- #  : comment
+- '#'  : comment
 
 
 - Ctrl   Slash  : for single line comments (  //...  )
