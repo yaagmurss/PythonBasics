@@ -15,3 +15,4 @@ Topics
 - Files
 - AddRowsToPandasDataFrame
 - ReadCsvWithPandas
+- JoinDataFramesWithPandas
