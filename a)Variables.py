@@ -3,7 +3,7 @@
 #String#
 name="Yagmur"
 surName="Solmaz"
-fullName=name+" "+surName
+fullName = name+" "+surName
 print("Hello " + fullName)
 
 #Integer#
