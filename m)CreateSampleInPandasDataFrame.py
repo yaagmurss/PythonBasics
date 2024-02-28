@@ -9,9 +9,6 @@ df = pd.DataFrame({'QueueItem': ['QueueItem1', 'QueueItem2', 'QueueItem3', 'Queu
 print('Sample pandas DataFrame:\n')
 print(df)
 
-
---
-
 # Create a Python list object with all the column values
 l_row = ["QueueItem6", "TestPath6"]
 
