@@ -7,8 +7,7 @@ df1 = pd.DataFrame({'id': ['A01', 'A02', 'A03', 'A04'],
 df2 = pd.DataFrame({'id': ['B05', 'B06', 'B07', 'B08'],
 					'Name': ['XYZ', 'TUV', 'MNO', 'JKL']})
 
---
-
+#Join Data In Pandas Data Frames
 
 frames = [df1, df2]
 
