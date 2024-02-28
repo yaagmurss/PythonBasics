@@ -1,9 +1,11 @@
 import pandas as pd
 
-data = pd.read_csv("C://Users//200741//Desktop//Sample.csv", sep='[;]', engine='python', header=None)
+data = pd.read_csv("*//Sample.csv", sep='[;]', engine='python', header=None)
 sampleDataFrame = pd.DataFrame(data)
 
 print(sampleDataFrame)
+
+# Adding Row In Pandas
 
 sampleDataFrame.loc[sampleDataFrame.__len__()+1] = ['FON',
                                                     '26.02.2024',
