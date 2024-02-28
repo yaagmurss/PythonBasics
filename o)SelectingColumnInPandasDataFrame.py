@@ -2,7 +2,7 @@
 
 import pandas as pd
 
-data = pd.read_csv("C://Users//200741//Desktop//Sample.csv", sep='[;]',engine='python', header = None)
+data = pd.read_csv("*//Sample.csv", sep='[;]',engine='python', header = None)
 sampleDataFrame = pd.DataFrame(data)
 
 newDataFrame = sampleDataFrame[sampleDataFrame[3]=='S']
